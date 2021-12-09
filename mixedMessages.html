@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mixed Messages Project</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <p>Welcome to Mixed Messages. Your randomly selected greeting follows below:</p>
+    <button type="button" id="greet" >Click here</button>
+
+    <p id="test"></p>
+
+<script src="jquery-3.6.0.js"></script>
+<script type="text/javascript" src="mixedMessages.js"></script>
+<script>
+    document.getElementById("greet").addEventListener("click", function() {
+        document.write(greet);
+    });
+</script>
+
+</body>
+</html>
